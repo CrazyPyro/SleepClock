@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Sleep Clock</title>
+        <link rel="stylesheet" href="demo.css" media="screen">
+        <style media="screen">
+            #holder {
+                height: 600px;
+                margin: -300px 0 0 -300px;
+                width: 600px;
+            }
+            #time {
+                text-align: center;
+                font: 100 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="holder">
+	</div>
+        <div id="time">
+        </div>
+        <p id="copy">Based on Polar Clock Demo of <a href="http://raphaeljs.com/">Raphaël</a>—JavaScript Vector Library</p>
+
+	<script src="raphael.js"></script>
+        <script src="SleepClock.js"></script>
+        <script>
+		doInit();
+	</script>
+        
+</body>
+</html>
